@@ -1,0 +1,264 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css?family=Asap|Rock+Salt|Crete+Round');
+
+html,body {
+	font-family: "Asap","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#videoBG {
+    position:fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url('../img/bg.jpg');
+        background-size: cover;
+    }
+	}
+
+a {
+    color: navyblue!important;
+    text-decoration: none!important;
+	
+}
+
+a:hover {
+  color: dodgerblue!important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000!important;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #C06B00!important;
+}
+
+small {
+    color: #000!important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Crete Round","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #000;
+}
+
+.brand {
+	font-family: 'Rock Salt', cursive;
+    display: none;
+}
+
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+	font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.4);
+}
+
+.intro-text {
+    font-size: 1.75em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.4);
+}
+
+footer p {
+	font-weight: bold;
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 0 gray,
+			-1px 1px 0 gray,
+			1px -1px 0 gray,
+    -1px -1px 0 gray,
+    0px 1px 0 gray,
+    0px -1px 0 gray,
+    -1px 0px 0 gray,
+    1px 0px 0 gray,
+    2px 2px 0 gray,
+    -2px 2px 0 gray,
+    2px -2px 0 gray,
+    -2px -2px 0 gray,
+    0px 2px 0 gray,
+    0px -2px 0 gray,
+    -2px 0px 0 gray,
+    2px 0px 0 gray,
+    1px 2px 0 gray,
+    -1px 2px 0 gray,
+    1px -2px 0 gray,
+    -1px -2px 0 gray,
+    2px 1px 0 gray,
+    -2px 1px 0 gray,
+    2px -1px 0 gray,
+    -2px -1px 0 gray;
+        font-family: "Rock Salt","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: ghostwhite;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: gray;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.4);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
